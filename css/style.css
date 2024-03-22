@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ----------------------------
@@ -48,6 +48,50 @@
 }
 
 
+
+/* TESTO HEADER */
+.text-title {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.text-title p {
+    margin-top: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.btn-header {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-white {
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-black {
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
 /* FOOTER */
 .footer {
     text-align: center;
@@ -61,6 +105,18 @@
        END STYLE PAGE
 ---------------------------- */
 
+/* ----------------------------
+       BACKGROUND & IMAGES
+---------------------------- */
+.bg-hero {
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ----------------------------
+    END BACKGROUND & IMAGES
+---------------------------- */
 
 /* ----------------------------
             UTILITY
@@ -68,7 +124,7 @@
 
 /* SECTION CONTAINER */
 .container-sm {
-    width: 800px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -153,8 +209,8 @@
     padding: 10px 0;
 }
 
-.mrg-10 {
-    margin: 10px 0;
+.mrg-content {
+    margin: 50px 0 100px 0;
 }
 
 .border {
