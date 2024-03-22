@@ -90,6 +90,19 @@ h1 {
     border: none;
 }
 
+/* BG BIANCO CONTAINER 60 40 */
+.item-1 {
+    width: 100%;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+.text p {
+    margin-top: 20px;
+}
+
 
 
 /* FOOTER */
@@ -207,6 +220,14 @@ h1 {
 
 .py-10 {
     padding: 10px 0;
+}
+
+.mrg-25 {
+    margin: 25px 0;
+}
+
+.mrg-50 {
+    margin: 50px 0;
 }
 
 .mrg-content {
