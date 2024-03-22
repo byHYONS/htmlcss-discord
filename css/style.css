@@ -139,7 +139,7 @@ h2 {
     background-image: url('../img/wave.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
     transform: scaleY(-1) scaleX(-1);
     filter: opacity(3%);
 }
@@ -253,6 +253,10 @@ h2 {
 
 .pyx-25 {
     padding: 25px;
+}
+
+.pyx-35 {
+    padding: 35px;
 }
 
 .mrg-25 {
