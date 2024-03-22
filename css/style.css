@@ -1,0 +1,180 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: lightblue;
+}
+
+.container-sm {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 15px;
+    max-width: 990px;
+    margin: 0 auto;
+
+}
+
+.container-full {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* COLUMNS */
+.col-100 {
+    width: 100%;
+}
+
+.col-80 {
+    width: 80%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-20 {
+    width: 20%;
+
+}
+
+.col-15 {
+    width: 15%;
+}
+
+/* MARGIN & PADDING*/
+.py-10 {
+    padding: 10px 0;
+}
+
+.mrg-10 {
+    margin: 10px 0;
+}
+
+.border {
+    border-top: 1px solid white;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    line-height: 1;
+    padding: 5px 10px;
+    border: 1px dashed white;
+    background-color: pink;
+}
+
+
+/* HEIGHT */
+.ht-40 {
+    height: 40px;
+}
+
+.ht-250 {
+    height: 250px;
+}
+
+.ht-500 {
+    height: 500px;
+}
+
+/* LOGO */
+.logo {
+    font-size: 18px;
+    text-align: center;
+    line-height: 2;
+}
+
+/* LOGIN */
+.login {
+    font-size: 15px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+/* LINK MENÙ */
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li {
+    padding: 5px 10px;
+    list-style-type: none;
+}
+
+/* COLORS */
+.bg-orange {
+    background-color: orange;
+    border: 1px dashed black;
+}
+
+.bg-pink {
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.bg-lightgray {
+    background-color: lightgray;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-lightcoral {
+    background-color: lightcoral;
+    border: 1px dashed black;
+}
+
+.bg-lightgreen {
+    background-color: lightgreen;
+    border: 1px dashed black;
+}
+
+.bg-greenyellow {
+    background-color: greenyellow;
+    border: 1px dashed black;
+}
+
+.bg-lightsalmon {
+    background-color: lightsalmon;
+    border: 1px dashed black;
+}
+
+.bg-blue {
+    background-color: blue;
+    border: 1px dashed black;
+}
